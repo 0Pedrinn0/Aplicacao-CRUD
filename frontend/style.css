@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.navegacao {
+    background-color: hsl(0, 0%, 12%);
+    min-height: 25vh;
+    min-width: 20vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.navegacao a {
+    text-decoration: none;
+    color: hsl(0, 0%, 95%);
+    background-color:hsl(0, 0%, 8%);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.navegacao a:hover{
+    transition: 300ms;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 0%);
+}
+.container {
+    background-color:hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo {
+    color: hsl(75, 94%, 57%);
+}
+.registroForm {
+    color: hsl(75, 94%, 57%);
+    background-color: hsl(0, 0%, 12%);
+    min-height: 25vh;
+    min-width: 20vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+input[type="text"], input[type="password"], input[type="email"]{
+    background-color: hsl(0, 0%, 15%);
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 95%);
+    width: 200px;
+}
+input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus {
+    outline: none;
+    border: 2px solid hsl(75, 94%, 57%); 
+}
+.botoes{
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+.button{
+    font-size: small;
+    min-width: 150px;
+    min-height: 25px;
+    background-color: hsl(0, 0%, 8%);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 95%);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button:hover{
+    transition: 300ms;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 0%);
+}
+.buttonHome{
+    text-align: center;
+    font-size: small;
+    min-width: 150px;
+    min-height: 25px;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 0%);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.usuarioList{
+    text-align: left;
+    color: hsl(75, 94%, 57%);
+    background-color: hsl(0, 0%, 12%);
+    height: 75vh;
+    min-width: 50vw;
+    flex-direction: column;
+    display: flex;
+    border-radius: 5px;
+    gap: 20px;
+    padding: 20px;
+    overflow: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: hsl(75,94%,57%) hsl(0,0%,12%);
+}
+.usuarioInfo{
+    background-color: hsl(0, 0%, 8%);
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+.usuarioInfo button{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 0%);
+    margin: 10px 0 0 0;
+}
